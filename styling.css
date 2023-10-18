@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #8bdcdc;
+    margin: 20px 40px;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.product h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product p {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#add {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.add {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.add input {
+    height: 30px;
+    width: 70%;
+    margin: 5px auto;
+    padding-left: 10px;
+}
+
+.add button {
+    height: 30px;
+    width: 30%;
+    margin: 20px auto;
+    border: none;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.add button:hover {
+    background-color: #4c4c91;
+}
+
+.add-error {
+    font-size: 1.25rem;
+    color: red;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.add-success {
+    font-size: 1.25rem;
+    color: green;
+    text-align: center;
+    margin: 5px 0;
+}
+
+
+.product-out {
+    background-color: dimgrey !important;
+    margin: 20px 40px;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.product-out h1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-out p {
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.discount {
+    color: red;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+
+
+
+
